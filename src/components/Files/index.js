@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import File from "../File";
 
-import { WRAPPER, FILE_ITEM, BG_1, BG_2 } from "./files.module.css";
+import { WRAPPER, FILE_ITEM, BG_1 } from "./files.module.css";
 
 const Files = ({files}) => {
   const [selectedFiles, setSelectedFiles] = useState([]);

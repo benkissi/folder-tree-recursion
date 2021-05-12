@@ -1,0 +1,21 @@
+.WRAPPER {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border-radius: 5px;
+    background-color: #dbfdec;
+    padding: 50px;
+}
+
+.FILE_ITEM {
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.BG_1 {
+    background-color: #baf8d8;
+}
+
+.BG_2 {
+    background-color: #c5d1cb;
+}

@@ -1,0 +1,45 @@
+.WRAPPER {
+    display: flex;
+    flex-direction: column;
+}
+
+.CONTAINER {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.ICON {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.LABEL {
+    color: #526c79;
+    font-weight: 600;
+}
+
+.DROP_ICON {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.BG_GREEN {
+    background-color: #01a962;
+}
+
+.SUB_FILES {
+    margin-top: 12px;
+    margin-left: 30px;
+}
